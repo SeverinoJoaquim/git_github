@@ -1,3 +1,5 @@
+.LOG
+
 Configurando o Git
 
 1- Verificar a versão da instalação do git 
@@ -21,7 +23,7 @@ git config core.editor
 7-Mudar o editor padrão
 git config --global core.editor "caminho para o executável do editor"
 
-=================================================================================
+================================= Parte 2 ================================================
 Comandos especiais e usuais
 
 Clear - Limpa tela
@@ -34,7 +36,7 @@ touch - Cria um arquivo (Ex. touch exemplo.txt)
 
 cd - Muda de pasta (Ex. cd /nome da pasta)
 
-====================================================================================
+================================ Parte 3 ====================================================
 Criar repositório local
 
 1- Criar um repositório local
@@ -60,4 +62,9 @@ git add .
 
 git commit -m "Descrição da alteração feita"
 
- 
+6 - Gerenciamento dos commitados
+git log
+
+========================================Gerenciamento de Graphos ==========================================================
+1 - Visualizar o grapho
+git log --graph
