@@ -1,0 +1,63 @@
+Configurando o Git
+
+1- Verificar a versão da instalação do git 
+git version
+
+2 - Cofigurando o nome
+git config --global user.name "Severino Joaquim"
+
+3-Configurando o email
+git config --global user.gmail "severinojoca@gmail.com"
+
+4-Verificar nome cadastrado
+git config user.name
+
+5-Verificar email cadastrado
+git config user.email
+
+6-Verificar o editor instalado e habilitado ao git
+git config core.editor
+
+7-Mudar o editor padrão
+git config --global core.editor "caminho para o executável do editor"
+
+=================================================================================
+Comandos especiais e usuais
+
+Clear - Limpa tela
+
+ls - Lista o conteúdo da pasta atual
+
+mkdir - Cria uma pasta
+
+touch - Cria um arquivo (Ex. touch exemplo.txt) 
+
+cd - Muda de pasta (Ex. cd /nome da pasta)
+
+====================================================================================
+Criar repositório local
+
+1- Criar um repositório local
+
+git init
+
+Cria um arquivo oculto (.git)
+
+2- Listar o arquivo oculto
+ ls -a
+
+3- Listar o status da pasta
+
+git sttus
+
+4 - Adicionar arquivos criados ou modificados ao container
+
+git add *	(adiciona todos os arquivos)
+
+git add .
+
+5 - Adicionar os arquivos ao repositório
+
+git commit -m "Descrição da alteração feita"
+
+ 
