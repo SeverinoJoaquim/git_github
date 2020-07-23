@@ -68,3 +68,15 @@ git log
 ========================================Gerenciamento de Graphos ==========================================================
 1 - Visualizar o grapho
 git log --graph
+
+2 - Visuaizar apenas os nodes
+git log --oneline --graph
+
+3 - Adicionar o arquivo ao continer e comitar conjuntamente
+git commit -am "Descrição da alteração"
+
+======================================= Sincronização git e github ============================================================
+1 - Enviar arquivos para o github
+git push
+
+
